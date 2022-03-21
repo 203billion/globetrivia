@@ -1,0 +1,94 @@
+html, body {min-height: 100%;}
+body {
+    font-family: arial;
+    font-size: 30px;
+    overflow: hidden;
+}
+
+#title {
+    background-image: url("../images/title.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100px;
+    width: 1000px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#bg {
+    background: url("../images/homeWorld.png") no-repeat center center fixed;
+    filter: blur(8px);
+    height: 9999px;
+    background-size: cover;
+}
+
+#game {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(82, 183, 255);
+    color: white;
+    padding: 30px 76px;
+    text-decoration: none;
+}
+
+#game:hover {
+    opacity: 0.6;
+}
+
+#rules {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(82, 183, 255);
+    color: white;
+    padding: 30px 70px;
+    text-decoration: none;
+}
+
+#rules:hover {
+    opacity: 0.6;
+}
+
+#text {
+    position: absolute;
+    text-align: center;
+    top: 20%;
+    margin: 70px 300px;
+}
+
+#exit {
+    position: absolute;
+    left: 2%;
+    bottom: 10%;
+    width: 100px;
+  }
+    #exit:hover {
+        opacity: 0.6;
+    }
+
+  #exitHome {
+    position: absolute;
+    top: 45%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(82, 183, 255);
+    color: white;
+    padding: 30px 76px;
+    text-decoration: none;
+  }
+
+  #replay {
+    position: absolute;
+    top: 45%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(82, 183, 255);
+    color: white;
+    padding: 30px 55px;
+    text-decoration: none;
+  }

@@ -1,0 +1,248 @@
+body {
+    font-family: arial;
+    font-size: 30px;
+    overflow: hidden;
+}
+/* BACKGROUND */
+#bg {
+  background: url("../images/homeWorld.png") no-repeat center center fixed;
+  height: 9999px;
+  background-size: cover;
+}
+/* PINS */
+#asia {
+  position: absolute;
+  top: 26.5%;
+  right: 24%;
+  transform: scale(0.7);
+}
+      #asia:hover {
+        opacity: 0.4;
+        transform: scale(1);
+      }
+
+#eu {
+  position: absolute;
+  top: 14%;
+  left: 49%;
+  transform: scale(0.7);
+}
+      #eu:hover {
+        opacity: 0.4;
+        transform: scale(1);
+      }
+
+#af {
+  position: absolute;
+  top: 40%;
+  right: 42%;
+  transform: scale(0.7);
+}
+      #af:hover {
+        opacity: 0.4;
+        transform: scale(1);
+      }
+
+#aus {
+  position: absolute;
+  top: 58%;
+  right: 11%;
+  transform: scale(0.7);
+}
+      #aus:hover {
+        opacity: 0.4;
+        transform: scale(1);
+      }
+
+#pac {
+  position: absolute;
+  top: 40%;
+  left: 7%;
+  transform: scale(0.7);
+}
+      #pac:hover {
+        opacity: 0.4;
+        transform: scale(1);
+      }
+
+#atl {
+  position: absolute;
+  top: 60%;
+  left: 44%;
+  transform: scale(0.7);
+}
+      #atl:hover {
+        opacity: 0.4;
+        transform: scale(1);
+      }
+
+#rus {
+  position: absolute;
+  top: 9%;
+  right: 25%;
+  transform: scale(0.7);
+}
+      #rus:hover {
+        opacity: 0.4;
+        transform: scale(1);
+      }
+
+#na {
+  position: absolute;
+  top: 16%;
+  left: 27%;
+  transform: scale(0.7);
+}
+      #na:hover {
+        opacity: 0.4;
+        transform: scale(1);
+      }
+
+#sa {
+  position: absolute;
+  top: 45%;
+  left: 31%;
+  transform: scale(0.7);
+}
+      #sa:hover {
+        opacity: 0.4;
+        transform: scale(1);
+      }
+
+#gr {
+  position: absolute;
+  top: 1%;
+  left: 37%;
+  transform: scale(0.7);
+}
+      #gr:hover {
+        opacity: 0.4;
+        transform: scale(1);
+      }
+
+/* FEEDBACK BOX */
+#feedback {
+  padding: 20px;
+  background-color: rgb(77, 250, 54);
+  color: white;
+  margin-bottom: 15px;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+  text-align: center;
+}
+
+  #fbText {
+    display: inline;
+  }
+
+#feedbackScore {
+    padding: 20px;
+    background-color: rgb(19, 111, 177);
+    color: white;
+    margin-bottom: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    text-align: center;
+  }
+  
+    #fbScoreText {
+      display: inline;
+    }
+  
+#loseMessage {
+    padding: 20px;
+    background-color: red;
+    color: white;
+    margin-bottom: 15px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    text-align: center;
+  }
+  
+    #loseMessageText {
+      display: inline;
+    }
+
+/* CLOSE BUTTON */
+#closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#closebtn:hover {
+  color: black;
+}
+/* FORFEIT */
+#exit {
+  position: absolute;
+  left: 2%;
+  bottom: 10%;
+  width: 100px;
+}
+  #exit:hover {
+    opacity: 0.6;
+  }
+/*LIFESPRITE*/
+#lifeSprite3 {
+  position: absolute;
+  bottom: 8%;
+  right: 2%;
+  height: 135px;
+  width: 156px;
+  transform: scale(0.45);
+  background: url("../images/life.png")0px 0px;
+  animation: play 2s steps(5);
+  animation-play-state: paused;
+  animation-fill-mode: forwards; /*not working*/
+}
+@keyframes play{
+    from{background-position-x: -156px;}
+    to{background-position-x: -936px;}
+  }
+#lifeSprite2 {
+  position: absolute;
+  bottom: 8%;
+  right: 7%;
+  height: 135px;
+  width: 156px;
+  transform: scale(0.45);
+  background: url("../images/life.png")0px 0px;
+  animation: play 1s steps(5);
+  animation-play-state: paused;
+  animation-fill-mode: forwards; /*not working*/
+}
+@keyframes play{
+    from{background-position-x: -156px;}
+    to{background-position-x: -936px;}
+  }
+#lifeSprite1 {
+  position: absolute;
+  bottom: 8%;
+  right: 12%;
+  height: 135px;
+  width: 156px;
+  transform: scale(0.45);
+  background: url("../images/life.png")0px 0px;
+  animation: play 1s steps(5);
+  animation-play-state: paused;
+  animation-fill-mode: forwards; /*not working*/
+}
+@keyframes play{
+    from{background-position-x: -156px;}
+    to{background-position-x: -936px;}
+  }
